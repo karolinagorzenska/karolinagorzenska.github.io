@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width,shrink-to-fit=no">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../style.css">
+    <title>karolina gorzeńska</title>
+</head>
+
+<body>
+    <header>
+        <center>karolina gorzeńska</center>
+    </header>
+    <nav>
+        <ul class="main">
+            <li><a class="current" href="../index.html">photography</a></li>
+            <li><a class="sections" href="../../sketchbook/index.html">sketchbook</a></li>
+            <li><a class="sections" href="../../contact/index.html">about</a></li>
+        </ul>
+    </nav>
+	<div class="text"><a>analogue photography series, shot between 2017-2018 all artworks are scanned 35mm or 120 color negatives</a></div>
+    <nav class="submenu">
+    <ul>
+        <li><a class="entry" href="../spring/index.html">spring</a></li>
+        <li><a class="entry" href="../summer/index.html">summer</a></li>
+        <li><a class="entry" href="../autumn/index.html">autumn</a></li>
+        <li><a class="current entry" href="index.html">winter</a></li>
+    </ul>
+    </nav>
+    <picture>
+        <script type="text/javascript">
+            window.onload = function() {
+                addImages(32);
+            }
+        </script>
+        <script type="text/javascript" src="script.js"></script>
+    </picture>
+    <div id="gallery" class="gallery">
+        <span class="close cursor" onclick="closeGallery()">&times;</span>
+        <img id="" class="slide" src="">
+        <a class="prev" onclick="prev(32)">&#10094;</a>
+        <a class="next" onclick="next(32)">&#10095;</a>
+        <!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+    </div>
+</body>
+
+</html>
